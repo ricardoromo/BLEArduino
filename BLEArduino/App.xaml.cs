@@ -1,31 +1,29 @@
-﻿using Plugin.BLE;
-using Plugin.BLE.Abstractions.Contracts;
+﻿using System;
+using BLEArduino.Views;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace BLEArduino
 {
-	public partial class App : Application
-	{
-		
-		public App()
-		{
-			InitializeComponent();
-			MainPage = new NavigationPage(new BLEArduinoPage());
-		}
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-		protected override void OnStart()
-		{
-			// Handle when your app starts
-		}
+            MainPage = new NavigationPage(new BLEArduinoPage());
+        }
 
-		protected override void OnSleep()
-		{
-			// Handle when your app sleeps
-		}
+        protected override void OnStart()
+        {
+        }
 
-		protected override void OnResume()
-		{
-			// Handle when your app resumes
-		}
-	}
+        protected override void OnSleep()
+        {
+        }
+
+        protected override void OnResume()
+        {
+        }
+    }
 }
