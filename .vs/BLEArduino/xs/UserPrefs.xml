@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{F0E02F87-00B7-4D34-9BE0-B49C21CAB1C0}|Default">
+  <MonoDevelop.Ide.ItemProperties.BLEArduino.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008020-001615E43E90003A" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BLEArduino/Views/BLEArduinoPage.xaml.cs">
+    <Files>
+      <File FileName="BLEArduino.iOS/Info.plist" />
+      <File FileName="BLEArduino/BLE/BluetoothManager.cs" Line="85" Column="15" />
+      <File FileName="BLEArduino/Views/BLEArduinoPage.xaml" Line="1" Column="1" />
+      <File FileName="BLEArduino/Views/DeviceListPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="BLEArduino/Views/DeviceListPage.xaml" Line="1" Column="1" />
+      <File FileName="BLEArduino/Views/BLEArduinoPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BLEArduino" expanded="True">
+            <Node name="BLEArduino" expanded="True">
+              <Node name="BLE" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="BLEArduinoPage.xaml" expanded="True">
+                  <Node name="BLEArduinoPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="DeviceListPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="BLEArduino.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BLEArduino.Android PreferredExecutionTarget="Android.android" />
+</Properties>

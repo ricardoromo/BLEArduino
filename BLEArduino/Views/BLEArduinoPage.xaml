@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="BLEArduino.Views.BLEArduinoPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Clicked="Led_Action_Clicked" Text="Turn Led On" />
+            <Button Clicked="Disconnect_Device_Clicked" Text="Disconnect BLE Device" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
